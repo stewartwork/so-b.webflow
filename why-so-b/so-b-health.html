@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Jul 23 2020 13:38:31 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="5f1846bf4026607e7b05802b" data-wf-site="5f1846bf402660c53305800b">
+<!--  Last Published: Mon Aug 03 2020 16:24:43 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5f15d05c1180aca65ee329cd" data-wf-site="5ea737e26100ea8c441d916f">
 <head>
   <meta charset="utf-8">
   <title>So-B Health</title>
@@ -11,7 +11,7 @@
   <meta content="Webflow" name="generator">
   <link href="../css/normalize.css" rel="stylesheet" type="text/css">
   <link href="../css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="../css/stage-so-b-shopify.webflow.css" rel="stylesheet" type="text/css">
+  <link href="../css/so-b.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","PT Serif:400,400italic,700,700italic","Inconsolata:400,700","Baskervville:regular"]  }});</script>
   <script src="https://use.typekit.net/lxy4bpt.js" type="text/javascript"></script>
@@ -79,8 +79,8 @@ a.link-box.w-inline-block h4.heading-13 {
 <body page="template">
   <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navigation w-nav">
     <div class="container w-container">
-      <div menu="main-menu" class="navigation-items-3">
-        <div class="navigation-wrap-3"><a href="#" class="logo-link-2 mobile w-nav-brand"><img src="../images/SB-logo.svg" alt="" class="logo-image"></a>
+      <div class="navigation-items-3">
+        <div class="navigation-wrap-3"><a href="../index.html" class="logo-link-2 mobile w-nav-brand"><img src="../images/SB-logo.svg" alt="" class="logo-image"></a>
           <nav role="navigation" class="navigation-items-3 w-nav-menu"><a href="../shop.html" menu="navigation-menu" class="navigation-item-3 w-nav-link">Shop</a>
             <div data-hover="1" data-delay="0" class="w-dropdown">
               <div class="w-dropdown-toggle">
@@ -95,7 +95,7 @@ a.link-box.w-inline-block h4.heading-13 {
                 <div class="navigation-item-3">the so-b story</div>
               </div>
               <nav class="dropdown-list-2 w-dropdown-list"><a href="../the-so-b-story/about-so-b.html" class="dd-link-2 w-dropdown-link">The So-B Story</a><a href="../the-so-b-story/about-the-studies-and-sources.html" class="dd-link-2 w-dropdown-link">The Studies &amp; Sources</a><a href="../the-so-b-story/about-certifications.html" class="dd-link-2 w-dropdown-link">Certifications</a><a href="../the-so-b-story/about-affiliations.html" class="dd-link-2 w-dropdown-link">Affiliations</a><a href="../the-so-b-story/about-faqs.html" class="dd-link-2 w-dropdown-link">FAQs</a></nav>
-            </div><a href="../index.html" class="logo-link-2 w-nav-brand"><img src="../images/SB-logo.svg" alt="" class="logo-image desk"></a><a href="../giving-back.html" class="navigation-item-3 w-nav-link">Giving Back</a><a href="../account/login.html" class="login-item-3 w-nav-link">Login</a></nav>
+            </div><a href="../index.html" class="logo-link-2 w-nav-brand"><img src="../images/SB-logo.svg" alt="" class="logo-image desk"></a><a href="../giving-back.html" show-if="logged-in" class="navigation-item-3 w-nav-link">Giving Back</a><a href="../account/login.html" hide-if="logged-in" class="login-item-3 w-nav-link">Login</a></nav>
           <div data-node-type="commerce-cart-wrapper" shop="mini-cart" data-open-product="" data-wf-cart-type="modal" data-wf-cart-query="" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper"><a href="#" data-node-type="commerce-cart-open-link" class="w-commerce-commercecartopenlink button-3 cc-cart w-inline-block"><svg class="w-commerce-commercecartopenlinkicon" width="17px" height="17px" viewbox="0 0 17 17"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M2.60592789,2 L0,2 L0,0 L4.39407211,0 L4.84288393,4 L16,4 L16,9.93844589 L3.76940945,12.3694378 L2.60592789,2 Z M15.5,17 C14.6715729,17 14,16.3284271 14,15.5 C14,14.6715729 14.6715729,14 15.5,14 C16.3284271,14 17,14.6715729 17,15.5 C17,16.3284271 16.3284271,17 15.5,17 Z M5.5,17 C4.67157288,17 4,16.3284271 4,15.5 C4,14.6715729 4.67157288,14 5.5,14 C6.32842712,14 7,14.6715729 7,15.5 C7,16.3284271 6.32842712,17 5.5,17 Z" fill="currentColor" fill-rule="nonzero"></path></g></svg><div class="w-inline-block">Cart</div><div class="w-commerce-commercecartopenlinkcount cart-quantity-2">0</div></a>
             <div data-node-type="commerce-cart-container-wrapper" style="display:none" class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-modal">
               <div data-node-type="commerce-cart-container" class="w-commerce-commercecartcontainer">
@@ -148,10 +148,10 @@ a.link-box.w-inline-block h4.heading-13 {
     </div>
   </div>
   <div class="vid-hero">
-    <div data-poster-url="https://uploads-ssl.webflow.com/5ea737e26100ea8c441d916f/5f0f7e1446963351cab62aba_iStock-1153942962_Trim-poster-00001.jpg" data-video-urls="../videos/iStock-1153942962_Trim-transcode.mp4,../videos/iStock-1153942962_Trim-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video health w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/5ea737e26100ea8c441d916f/5f0f7e1446963351cab62aba_iStock-1153942962_Trim-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="../videos/iStock-1153942962_Trim-transcode.mp4" data-wf-ignore="true"><source src="../videos/iStock-1153942962_Trim-transcode.webm" data-wf-ignore="true"></video>
+    <div data-poster-url="../videos/iStock-1153942962_Trim-poster-00001.jpg" data-video-urls="../videos/iStock-1153942962_Trim-transcode.mp4,../videos/iStock-1153942962_Trim-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video health w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;../videos/iStock-1153942962_Trim-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="../videos/iStock-1153942962_Trim-transcode.mp4" data-wf-ignore="true"><source src="../videos/iStock-1153942962_Trim-transcode.webm" data-wf-ignore="true"></video>
       <div class="flex-container w-container">
         <div class="hero-copy-block">
-          <h1 option:text="Hero-Text" class="heading-jumbo-small">You will often experience a tingling, itching or burning sensation around your mouth, before the appearance of a cold sore.</h1>
+          <h1 class="heading-jumbo-small">You will often experience a tingling, itching or burning sensation around your mouth, before the appearance of a cold sore.</h1>
         </div>
       </div>
     </div>
@@ -172,8 +172,8 @@ a.link-box.w-inline-block h4.heading-13 {
   <div class="callout-prod1 new no-top">
     <div class="pad-20 w-container">
       <div class="w-layout-grid grid-2">
-        <div id="w-node-f1aba7ae1768-7b05802b" class="grid-img"><img src="../images/coldSore2.jpg" srcset="../images/coldSore2-p-800.jpeg 800w, ../images/coldSore2-p-1080.jpeg 1080w, ../images/coldSore2.jpg 1160w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 71vw, (max-width: 991px) 688px, 900px" alt="" class="image-100"></div>
-        <div id="w-node-f1aba7ae176a-7b05802b" class="grid-copy margin-left">
+        <div id="w-node-f1aba7ae1768-5ee329cd" class="grid-img"><img src="../images/coldSore2.jpg" srcset="../images/coldSore2-p-800.jpeg 800w, ../images/coldSore2-p-1080.jpeg 1080w, ../images/coldSore2.jpg 1160w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 71vw, (max-width: 991px) 688px, 900px" alt="" class="image-100"></div>
+        <div id="w-node-f1aba7ae176a-5ee329cd" class="grid-copy margin-left">
           <p class="paragraph-bigger gray left"><strong>Stage 1: </strong>Tingling and itching occurs about 24 hours before blisters erupt.<br>‍<br><strong>Stage 2: </strong>Fluid-filled blisters appear.<br>‍<br><strong>Stage 3: </strong>The blisters burst and ooze. They form painful sores.<br>‍<br><strong>Stage 4:</strong> The sores dry out and scab over causing itching and cracking.<br>‍<br><strong>Stage 5:</strong> The scab falls off and the cold sore heals.</p>
         </div>
       </div>
@@ -182,7 +182,7 @@ a.link-box.w-inline-block h4.heading-13 {
   <div class="callout-prod1 new grey">
     <div class="pad-20 w-container">
       <div class="w-layout-grid grid-2right">
-        <div id="w-node-719355138570-7b05802b" class="grid-copy-left margin-right">
+        <div id="w-node-719355138570-5ee329cd" class="grid-copy-left margin-right">
           <h2 class="page-h2 call-out-grid-h2 small">Once you&#x27;ve had a cold sore, the virus lies dormant in nerve cells until triggered by an event causing another cold sore.</h2>
           <ul role="list">
             <li>Viral infection or fever</li>
@@ -194,15 +194,15 @@ a.link-box.w-inline-block h4.heading-13 {
             <li>Injury to the skin</li>
           </ul>
         </div>
-        <div id="w-node-71935513856e-7b05802b" class="grid-img-right"><img src="../images/mirror3x.jpg" srcset="../images/mirror3x-p-500.jpeg 500w, ../images/mirror3x-p-800.jpeg 800w, ../images/mirror3x-p-1080.jpeg 1080w, ../images/mirror3x.jpg 1160w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 71vw, (max-width: 991px) 688px, 900px" alt="" class="image-100"></div>
+        <div id="w-node-71935513856e-5ee329cd" class="grid-img-right"><img src="../images/mirror3x.jpg" srcset="../images/mirror3x-p-500.jpeg 500w, ../images/mirror3x-p-800.jpeg 800w, ../images/mirror3x-p-1080.jpeg 1080w, ../images/mirror3x.jpg 1160w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 71vw, (max-width: 991px) 688px, 900px" alt="" class="image-100"></div>
       </div>
     </div>
   </div>
   <div class="callout-prod1 new">
     <div class="pad-20 w-container">
       <div class="w-layout-grid grid-2">
-        <div id="w-node-b08a0f20d582-7b05802b" class="grid-img"><img src="../images/coldfg.jpg" srcset="../images/coldfg-p-500.jpeg 500w, ../images/coldfg-p-800.jpeg 800w, ../images/coldfg-p-1080.jpeg 1080w, ../images/coldfg.jpg 1160w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 71vw, (max-width: 991px) 688px, 900px" alt="" class="image-100"></div>
-        <div id="w-node-b08a0f20d584-7b05802b" class="grid-copy margin-left">
+        <div id="w-node-b08a0f20d582-5ee329cd" class="grid-img"><img src="../images/coldfg.jpg" srcset="../images/coldfg-p-500.jpeg 500w, ../images/coldfg-p-800.jpeg 800w, ../images/coldfg-p-1080.jpeg 1080w, ../images/coldfg.jpg 1160w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 71vw, (max-width: 991px) 688px, 900px" alt="" class="image-100"></div>
+        <div id="w-node-b08a0f20d584-5ee329cd" class="grid-copy margin-left">
           <h2 class="page-h2 call-out-grid-h2">Cold sores are extremely contagious.</h2>
           <p class="paragraph-bigger gray left">Cold sores are extremely contagious when you have oozing. The virus easily spreads through contact with infected body fluids. But you can spread the virus even if you don&#x27;t have blisters. Many people who are infected never develop signs and symptoms. <br><br>According to National Institutes of Health, more than 50 percent of people in the United States have HSV-1.<strong><br></strong></p>
         </div>
@@ -269,7 +269,7 @@ a.link-box.w-inline-block h4.heading-13 {
           <div class="label">Get in Touch</div><a href="https://www.instagram.com/webflowapp/" target="_blank" class="footer-link">Corporate Headquarters<br>13850 Ballantyne Corprate Drive Suite 500<br>Charlotte, NC 28277</a><a href="mailto:customerfocus@so-b.com?subject=Information" class="footer-link">customerfocus@so-b.com</a><a href="tel:1-704-438-9853" class="footer-link">1-704-438-9853</a></div>
         <div class="links-section-footer">
           <div class="soc-links2">
-            <div class="label">Stay in Touch</div><a href="#" class="w-inline-block w-clearfix"><img src="../images/pinterest-square_1pinterest-square.png" alt="" class="social-ike-footer"></a><a href="#" class="w-inline-block w-clearfix"><img src="../images/face_1face.png" alt="" class="social-ike-footer"></a><a href="#" class="w-inline-block w-clearfix"><img src="../images/insta_1insta.png" alt="" class="social-ike-footer"></a><a href="#" class="w-inline-block w-clearfix"><img src="../images/twitter_1twitter.png" alt="" class="social-ike-footer"><img src="../images/linked_1linked.png" alt="" class="social-ike-footer"></a></div>
+            <div class="label">Stay in Touch</div><a href="#" class="w-inline-block w-clearfix"><img src="../images/pinterest-square.png" alt="" class="social-ike-footer"></a><a href="#" class="w-inline-block w-clearfix"><img src="../images/face.png" alt="" class="social-ike-footer"></a><a href="#" class="w-inline-block w-clearfix"><img src="../images/insta.png" alt="" class="social-ike-footer"></a><a href="#" class="w-inline-block w-clearfix"><img src="../images/twitter.png" alt="" class="social-ike-footer"><img src="../images/linked.png" alt="" class="social-ike-footer"></a></div>
         </div>
         <div id="w-node-ee4d9b4004c6-87e29718" class="footer-legal w-clearfix"><img src="../images/CES.png" width="144" alt="" class="footer-ces">
           <div class="footer-text-left">© 2020 HALKEN INC. All rights reserved.<br>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease. Please always consult your health care provider if you are taking any medications or have any medical condition. Individual results may vary.</div>
@@ -277,7 +277,7 @@ a.link-box.w-inline-block h4.heading-13 {
       </div>
     </div>
   </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5f1846bf402660c53305800b" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ea737e26100ea8c441d916f" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="../js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
